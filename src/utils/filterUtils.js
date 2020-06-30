@@ -1,5 +1,5 @@
 const setTodoListByFilter = (todos, filter) => {
-  switch(filter) {
+  switch(filter[0]) {
     case 'done':
       return todos.filter(todo => todo.isDone);
     case 'active':
